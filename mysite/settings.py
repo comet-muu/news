@@ -79,9 +79,11 @@ EMAIL_HOST_PASSWORD = os.getenv(
 )
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "munehiko0611.pythonanywhere.com",
+]
 
 
 # Application definition
